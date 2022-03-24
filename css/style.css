@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.listaOpciones {
+    list-style: none;
+}
+
+.formLogin {
+    margin-top: 10%;
+    margin-left: 37%;
+    margin-bottom: 10%;
+    border: 0.1rem solid rgb(145, 143, 143);
+    box-shadow: 0.5vh 0.5vw 15px rgb(145, 143, 143);
+    border-radius: 0.50rem;
+}
+
+.select {
+    width: 100%;
+    padding: 0.8rem;
+    -webkit-appearence:none;
+    border-radius: 10px;
+    border: 1px solid gainsboro;
+    display: inline-block;
+}
+
+.imagen-tabla {
+    width: 20%;
+}
+
+.imagen-tabla2 {
+    width: 5%;
+}
