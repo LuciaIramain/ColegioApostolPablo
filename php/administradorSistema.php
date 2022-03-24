@@ -44,7 +44,7 @@
                             <td>' . $fecha . '</td> 
                             <td>' . $fila['tipo'] . '</td>
                             <td><a href="modificar.php?id='.$fila['id'].'"><img src="../img/edit_pencil.png" alt="imagen de un lapiz" class="imagen-tabla"></a> </td> 
-                                <td><a href="confirmar_borrado.php?id='.$fila['id'].'"><img src="../img/trash_empty.png" alt="imagen de un tacho de basura" class="imagen-tabla2"></a> </td>
+                                <td><a href="confirmarBorrado.php?id='.$fila['id'].'"><img src="../img/trash_empty.png" alt="imagen de un tacho de basura" class="imagen-tabla2"></a> </td>
                         </tr>';
                 }
                 
