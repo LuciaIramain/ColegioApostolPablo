@@ -8,8 +8,6 @@ _Para descargar el proyecto solo clona el repositorio de GitHub._
 
 `https://github.com/LuciaIramain/ColegioApostolPablo.git`
 
-[Sitio noticias RollingNews](README.md)
-
 ### Herramientas externas
 
 - [Bootstrap 5](https://getbootstrap.com/)
