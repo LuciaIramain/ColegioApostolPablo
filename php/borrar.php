@@ -12,14 +12,14 @@
         desconectar($conn);
         if ($resultado) {
             echo '<p class="alert alert-success" role="alert">Eliminación exitosa!</p>';
-            header('refresh:2;url=administradorSistema.php');
+            header('refresh:2;url=listadoUsuarios.php');
         } else {
             echo '<p class="alert alert-danger" role="alert">No se pudo eliminar!</p>';
-            header('refresh:2;url=administradorSistema.php');
+            header('refresh:2;url=listadoUsuarios.php');
         }
     } else {
         echo '<p class="alert alert-danger" role="alert">Canceló la eliminación</p>';
-        header('refresh:2;url=administradorSistema.php');
+        header('refresh:2;url=listadoUsuarios.php');
     }
 
     include 'footer.php';
