@@ -1,7 +1,7 @@
 <?php
 if (!empty($_SESSION['usuario']) && isset($_SESSION['usuario'])) {
     echo '<nav class="navbar navbar-expand-lg navbar-light bg-light">
-                <a class="navbar-brand text-danger" href="administradorSistema.php"><img src="../img/colegio-apostol-pablo.png" alt="logo del colegio" class="logoNav"><b> Colegio Apostol Pablo</b></a>
+                <a class="navbar-brand text-danger" href="listadoUsuarios.php"><img src="../img/colegio-apostol-pablo.png" alt="logo del colegio" class="logoNav"><b> Colegio Apostol Pablo</b></a>
                     <div class="container-fluid">
                         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                             <span class="navbar-toggler-icon"></span>
