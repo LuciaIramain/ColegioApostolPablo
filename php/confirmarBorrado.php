@@ -16,7 +16,7 @@
             echo '<p class="display-5 text-center">¿Está seguro de querer eliminar al usuario <b>'. $fila['usuario'] .'</b>?</p>';
             echo '<div class="my-5 d-flex justify-content-center">
                     <a href="borrar.php?id='. $id .'" class="btn btn-success me-2 w-25">Aceptar</a>
-                    <a href="administradorSistema.php" class="btn btn-danger w-25">Cancelar</a>
+                    <a href="listadoUsuarios.php" class="btn btn-danger w-25">Cancelar</a>
                   </div>';
             echo '</section>';
         }
