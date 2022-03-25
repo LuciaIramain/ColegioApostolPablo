@@ -32,7 +32,7 @@
                             <a class="nav-link text-danger" aria-current="page" href="error404.php"><b>Propuesta educativa</b></a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-danger" aria-current="page" href="error404.php"><b>Nuestro colegio</b></a>
+                            <a class="nav-link text-danger" aria-current="page" href="error404.php"><b>Familia y colegio</b></a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link text-danger" href="error404.php"><b>Nuestro colegio</b></a>

@@ -11,7 +11,7 @@
         if ($numeroFilas == 1) {
             $fila = mysqli_fetch_array($resultado);
             $_SESSION['usuario'] = $fila['usuario'];
-            header('refresh:0;url=administradorSistema.php');
+            header('refresh:0;url=listadoUsuarios.php');
         } else {
             echo '<p class="alert alert-danger" role="alert">Usuario o contraseña incorrecta</p>';
             header('refresh:3;url=../index.php');

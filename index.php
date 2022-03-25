@@ -25,13 +25,13 @@
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav m-auto mb-2 mb-lg-0">
                         <li class="nav-item">
-                            <a class="nav-link active text-danger" aria-current="page" href="error404.php"><b>Home</b></a>
+                            <a class="nav-link active text-danger" aria-current="page" href="index.php"><b>Home</b></a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link text-danger" aria-current="page" href="error404.php"><b>Propuesta educativa</b></a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-danger" aria-current="page" href="error404.php"><b>Nuestro colegio</b></a>
+                            <a class="nav-link text-danger" aria-current="page" href="error404.php"><b>Familia y colegio</b></a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link text-danger" href="error404.php"><b>Nuestro colegio</b></a>
@@ -44,7 +44,7 @@
             </div>
         </nav>
     </section>
-    <section class="col-md-12">
+    <section class="col-md-12 bg-light">
         <img src="img/alumnos2.webp" alt="los alumnos en hora de clase" class="w-100 imagenIndex">
         <div class="text-center textoImagen">
             <h2>EDUCACIÓN PERSONALIZADA</h2>
@@ -56,19 +56,19 @@
             <div class="col-md-12 col-lg-4">
                 <h4>INGLÉS INTENSIVO</h4>
                 <p>Nuestros estudiantes rinden exámenes internacionales del Trinity Collage.</p>
-                <h4>PERSONALIZADA</h4>
+                <h4 class="mt-5">PERSONALIZADA</h4>
                 <p>Ofrecemos una educación personalizada. Los docentes acompañan a los estudiantes para que puedan descubrir sus fortalezas y su potencial contribución dentro y fuera del Apostol Pablo.</p>
             </div>
             <div class="col-md-12 col-lg-4">
                 <h4>AMBIENTE FAMILIAR</h4>
                 <p>Trabajamos junto a los padres ofreciendo un ambiente de formación continua. Generamos una red de familias con valores compartidos.</p>
 
-                <h4>INNOVAR PARA EDUCAR</h4>
+                <h4 class="mt-5">INNOVAR PARA EDUCAR</h4>
                 <p>Desarrollamos una educación con enfoque competencial que promueva la adquisición de capacidades y habilidades.</p>
             </div>
         </article>
     </section>
-    <section class="col-md-12 text-center">
+    <section class="col-md-12 text-center my-4">
         <h4 class="display-6 text-danger">Convenios</h4>
         <img src="img/universidadaustralencordoba-1.jpg" alt="universidad austral">
         <img src="img/unsta.png" alt="unsta">

@@ -44,8 +44,8 @@ include 'menu.php';
                         <input type="date" id="fechaAlta" name="fecha_alta" value="<?php echo $fila['fecha_alta'] ?>" class="form-control w-100">
                     </div>
                     <div class="mb-3">
-                        <label for="tipo">Tipo:
-                            <select name="tipo" id="tipo" class="select" value="<?php echo $fila['tipo'] ?>">
+                        <label for="rol">Rol:
+                            <select name="rol" id="rol" class="select" value="<?php echo $fila['rol'] ?>">
                                 <option value="administrador">Administrador</option>
                                 <option value="administrativo">Administrativo</option>
                                 <option value="alumno">Alumno</option>
@@ -57,7 +57,7 @@ include 'menu.php';
                     <div class="mb-3">
                         <input type="hidden" value="<?php echo $id ?>" name="id">
                         <input type="submit" value="Actualizar" class="btn btn-success">
-                        <a href="./administradorSistema.php" class="btn btn-danger">Cancelar</a>
+                        <a href="./listadoUsuarios.php" class="btn btn-danger">Cancelar</a>
                     </div>
                 </form>
             </section>
@@ -65,7 +65,7 @@ include 'menu.php';
         }
     } else {
         echo '<p class="mensaje">No se pudo modificar</p>';
-        header('refresh:5;url=administradorSistema.php');
+        header('refresh:5;url=listadoUsuarios.php');
     }
     ?>
 </main>

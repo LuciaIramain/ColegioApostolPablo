@@ -26,7 +26,7 @@
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav m-auto mb-2 mb-lg-0">
                         <li class="nav-item">
-                            <a class="nav-link active text-danger" aria-current="page" href="error404.php"><b>Home</b></a>
+                            <a class="nav-link active text-danger" aria-current="page" href="index.php"><b>Home</b></a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link text-danger" aria-current="page" href="error404.php"><b>Propuesta educativa</b></a>
@@ -46,7 +46,7 @@
         </nav>
     </section>
     <section class="text-center my-5 d-flex flex-column align-items-center">
-        <img src="img/error-404-1.gif" alt="error al encontrar la página" class="w-50">
+        <img src="img/error-404-1.gif" alt="error al encontrar la página" class="error">
         <a href="index.php">Volver a la página de inicio</a>
     </section>
 </main>
