@@ -12,15 +12,6 @@ a {
     list-style: none;
 }
 
-.formLogin {
-    margin-top: 10%;
-    margin-left: 37%;
-    margin-bottom: 10%;
-    border: 0.1rem solid rgb(145, 143, 143);
-    box-shadow: 0.5vh 0.5vw 15px rgb(145, 143, 143);
-    border-radius: 0.50rem;
-}
-
 .select {
     width: 100%;
     padding: 0.8rem;
@@ -37,3 +28,112 @@ a {
 .imagen-tabla2 {
     width: 5%;
 }
+
+
+
+nav li a:hover {
+    background-color: rgb(199, 199, 199);
+    padding: 0.5rem;
+}
+
+.imagenIndex {
+    opacity: 0.4;
+    height: 60vh;
+}
+
+.texto {
+    font-weight: bold;
+}
+
+.logoNav {
+    width: 50px;
+    margin-left: 10px;
+}
+
+@media all and (min-width: 360px) {
+    .grilla {
+        margin-left: 4%;
+        padding: 25px;
+    }
+
+    .formLogin {
+        width: 90%;
+        padding: 1rem;
+        margin-top: 15%;
+        margin-left: 20px;
+        margin-bottom: 5%;
+        border: 0.1rem solid rgb(145, 143, 143);
+        box-shadow: 0.5vh 0.5vw 15px rgb(145, 143, 143);
+        border-radius: 0.50rem;
+    }
+
+    .error {
+        width: 100%;
+    }
+
+    .logo {
+        padding: 20px;
+        width: 180px;
+    }
+    .textoImagen {
+        position: relative;
+        top: -250px;
+    }
+
+    .aula {
+        width: 90%;
+    }
+}
+
+@media all and (min-width: 768px) {
+    .grilla {
+        margin-left: 0%;
+        padding: 25px;
+    }
+
+    .error {
+        width: 70%;
+    }
+
+    .logo {
+        padding: 20px;
+        width: 200px;
+    }
+    .textoImagen {
+        position: relative;
+        top: -400px;
+    }
+}
+
+@media all and (min-width: 990px) {
+    .grilla {
+        margin-left: 25%;
+        padding: 25px;
+    }
+
+    .formLogin {
+        width: 25%;
+        padding: 1rem;
+        margin-top: 5%;
+        margin-left: 37%;
+        margin-bottom: 5%;
+        border: 0.1rem solid rgb(145, 143, 143);
+        box-shadow: 0.5vh 0.5vw 15px rgb(145, 143, 143);
+        border-radius: 0.50rem;
+    }
+
+    .error {
+        width: 50%;
+    }
+
+    .logo {
+        padding: 20px;
+        width: 230px;
+    }
+
+    .textoImagen {
+        position: relative;
+        top: -400px;
+    }
+}
+

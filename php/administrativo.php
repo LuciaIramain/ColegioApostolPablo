@@ -13,13 +13,10 @@
     </div>
     <div class="carousel-inner">
         <div class="carousel-item active">
-            <img src="../img/carousel2.jpg" class="d-block w-100" alt="el regreso a clase de los niños con su maestra en el aula">
+            <img src="../img/secretaria.jpg" class="d-block w-100" alt="caricatura de una secretaria en sus labores">
         </div>
         <div class="carousel-item">
-            <img src="../img/alumnos1.jpg" class="d-block w-100" alt="niña con mascarilla en el aula">
-        </div>
-        <div class="carousel-item">
-        <img src="../img/padres1.jpg" class="d-block w-100" alt="protocolo para la vuelta a clase presencial">
+            <img src="../img/secretaria2.jpg" class="d-block w-100" alt="computadora">
         </div>
     </div>
     <button class="carousel-control-prev" type="button" data-bs-target="#carouselApostolPablo" data-bs-slide="prev">
@@ -31,7 +28,33 @@
         <span class="visually-hidden">Siguiente</span>
     </button>
     </div>
-    <h1 class="display-3 text-center my-5">Bienvenidos personal de administración al ciclo lectivo 2022</h1>
+    <section class="container">
+        <article>
+            <h1 class="display-3 text-center my-5">Bienvenidos personal de administración al ciclo lectivo 2022</h1>
+            <h2 class="display-6 text-center my-5 text-success"><b>PROPUESTA EDUCATIVA</b></h2>
+            <p>El Colegio Apostol Pablo es una institución educativa, que cuenta con primario y secundario.
+                Ofrece a sus alumnos una formación integral de calidad, que atiende todas las dimensiones de la persona: intelectual,
+                afectiva, artística, deportiva, social, ética y espiritual.</p>
+            <p> El Apostol Pablo cuenta con:</p>
+            <ul>
+                <li>Nivel Primario.</li>
+                <li>Nivel Secundario.</li>
+            </ul>
+            <p>El colegio es de escolaridad simple.</p>
+            <p>Los horarios son: </p>
+            <ul>
+                <li><b>Horario de entrada: 08:00hs.</b></li>
+                <li><b>Horario de salida: 13:00hs.</b></li>
+            </ul>
+        </article>
+        <article class="my-5">
+            <img src="../img/aula.jpg" alt="unas de las aulas del colegio" class="aula">
+        </article>
+        <article class="text-center my-5 bg-light border-light rounded-3 p-5">
+            <h2 class="display-6 text-success">Horarios de atención</h2>
+            <p class="lead">De lunes a viernes de 08 a 13hs</p>
+        </article>
+    </section>
 </main>
 
 

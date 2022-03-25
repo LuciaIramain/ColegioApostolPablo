@@ -5,7 +5,7 @@
 ?>
 
 <main>
-    <h1 class="display-3 text-center my-5">Bienvenido Administrador</h1>
+    <h1 class="display-3 text-center my-5">Bienvenidos al colegio Apostol Pablo</h1>
     <h3 class="text-center my-5">Listado de los usuarios año 2022</h3>
 
     <?php
@@ -29,7 +29,7 @@
                     <th scope="col">Apellido</th>
                     <th scope="col">Email</th>
                     <th scope="col">Fecha</th>
-                    <th scope="col">Tipo</th>
+                    <th scope="col">Rol</th>
                 </tr>
                 </thead>
                 <tbody>';
@@ -42,7 +42,7 @@
                             <td>' . $fila['apellido'] . '</td>
                             <td>' . $fila['email'] . '</td> 
                             <td>' . $fecha . '</td> 
-                            <td>' . $fila['tipo'] . '</td>
+                            <td>' . $fila['rol'] . '</td>
                             <td><a href="modificar.php?id='.$fila['id'].'"><img src="../img/edit_pencil.png" alt="imagen de un lapiz" class="imagen-tabla"></a> </td> 
                                 <td><a href="confirmarBorrado.php?id='.$fila['id'].'"><img src="../img/trash_empty.png" alt="imagen de un tacho de basura" class="imagen-tabla2"></a> </td>
                         </tr>';

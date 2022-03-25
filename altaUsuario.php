@@ -11,6 +11,38 @@
 </head>
 <body>
     <main>
+    <header class="d-flex flex-column align-items-center col-md-12 bg-light">
+        <img src="img/colegio-apostol-pablo.png" alt="logo del colegio" class="logo">
+        <h1 class="text-center">Apostol Pablo</h1>
+    </header>
+    <section class="col-md-12">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav m-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active text-danger" aria-current="page" href="index.php"><b>Home</b></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-danger" aria-current="page" href="error404.php"><b>Propuesta educativa</b></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-danger" aria-current="page" href="error404.php"><b>Familia y colegio</b></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-danger" href="error404.php"><b>Nuestro colegio</b></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-danger" href="login.php"><b>Iniciar Sesión</b></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </section>
         <section class="container">
         <h1 class="display-3 py-5 text-center">Registrate</h1>
             <form action="php/altaUsuarioBack.php" method="POST">
@@ -39,8 +71,8 @@
                     <input type="date" id="fechaAlta" name="fecha_alta" class="form-control w-100" required>
                 </div>
                 <div class="mb-3">
-                    <label for="tipo">Tipo:
-                        <select name="tipo" id="tipo" class="select">
+                    <label for="roles">Rol:
+                        <select name="rol" id="roles" class="select">
                             <option value="administrador">Administrador</option>
                             <option value="administrativo">Administrativo</option>
                             <option value="alumno">Alumno</option>

@@ -21,10 +21,10 @@
         $resultado = mysqli_query($conn, $consulta);
         if ($resultado) {
             echo '<p class="alert alert-success" role="alert">Actualización exitosa!</p>';
-            header('refresh:2;url=administradorSistema.php');
+            header('refresh:2;url=listadoUsuarios.php');
         } else {
             echo '<p class="alert alert-danger" role="alert">No se pudo modificar</p>';
-            header('refresh:3;url=administradorSistema.php');
+            header('refresh:3;url=listadoUsuarios.php');
         }
     }
     desconectar($conn);
