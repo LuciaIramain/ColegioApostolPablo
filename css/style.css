@@ -103,10 +103,6 @@ nav li a:hover {
         position: relative;
         top: -400px;
     }
-
-    .aula {
-
-    }
 }
 
 @media all and (min-width: 990px) {
@@ -138,10 +134,6 @@ nav li a:hover {
     .textoImagen {
         position: relative;
         top: -400px;
-    }
-
-    .aula {
-        
     }
 }
 
