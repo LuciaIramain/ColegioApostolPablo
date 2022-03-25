@@ -22,7 +22,7 @@
 
             if ($resultado) {
                 echo '<p class="alert alert-success" role="alert">Alta exitosa</p>';
-                header('refresh:5;url=../index.php');
+                header('refresh:5;url=../login.php');
             } else {
                 echo '<p class="alert alert-danger" role="alert">No se pudo realizar el alta</p>';
             }
